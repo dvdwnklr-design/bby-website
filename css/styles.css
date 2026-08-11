@@ -126,7 +126,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: 92px;
 }
 
 .logo {
@@ -135,7 +135,7 @@ p {
 }
 
 .logo-img {
-  height: 50px;
+  height: 64px;
   width: auto;
 }
 
@@ -396,12 +396,12 @@ p {
   }
 
   .logo-img {
-    height: 38px;
+    height: 46px;
   }
 
   .site-nav {
     position: absolute;
-    top: 80px;
+    top: 92px;
     left: 0;
     right: 0;
     background: var(--color-bg);
