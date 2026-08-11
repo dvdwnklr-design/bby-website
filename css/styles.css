@@ -175,7 +175,7 @@ p {
 /* ---------- Hero ---------- */
 .hero {
   background:
-    linear-gradient(135deg, rgba(30, 58, 95, 0.87), rgba(20, 42, 69, 0.9)),
+    linear-gradient(135deg, rgba(30, 58, 95, 0.45), rgba(20, 42, 69, 0.5)),
     url("../images/school-building.jpg");
   background-size: cover;
   background-position: center;
@@ -187,13 +187,15 @@ p {
 .hero h1 {
   font-size: 2.75rem;
   color: #fff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.55);
 }
 
 .hero p {
   font-size: 1.15rem;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.92);
   max-width: 560px;
   margin: 0 auto 2em;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
 }
 
 /* ---------- Sections ---------- */
