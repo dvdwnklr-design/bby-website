@@ -406,3 +406,31 @@ p {
     grid-template-columns: 1fr;
   }
 }
+
+/* ---------- Scroll Reveal ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.staff-card.reveal:nth-child(2) { transition-delay: 0.08s; }
+.staff-card.reveal:nth-child(3) { transition-delay: 0.16s; }
+.staff-card.reveal:nth-child(4) { transition-delay: 0.24s; }
+.staff-card.reveal:nth-child(5) { transition-delay: 0.32s; }
+.staff-card.reveal:nth-child(6) { transition-delay: 0.4s; }
+.staff-card.reveal:nth-child(7) { transition-delay: 0.48s; }
+.staff-card.reveal:nth-child(8) { transition-delay: 0.56s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
