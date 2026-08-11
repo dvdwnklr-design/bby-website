@@ -83,6 +83,23 @@ p {
   box-shadow: var(--shadow-hover);
 }
 
+.hero-cta {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.hero-cta:hover {
+  transform: translateY(-2px) scale(1.04);
+}
+
+.cta-arrow {
+  display: inline-block;
+  transition: transform 0.25s ease;
+}
+
+.hero-cta:hover .cta-arrow {
+  transform: translateX(5px);
+}
+
 .btn-donate {
   background: var(--color-primary);
   color: #fff;
