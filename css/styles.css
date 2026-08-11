@@ -219,7 +219,7 @@ p {
 .about-content {
   max-width: 720px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .about-subsection {
@@ -231,6 +231,7 @@ p {
 .about-subsection h3 {
   color: var(--color-primary);
   font-size: 1.3rem;
+  text-align: center;
 }
 
 .quote {
